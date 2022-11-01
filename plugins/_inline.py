@@ -50,8 +50,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="t.me/itzyournil"),
-        Button.url("• Support •", url="t.me/UltroidSupportChat"),
+        Button.url("• Repo •", url="t.me/md_noman_khan"),
+        Button.url("• Support •", url="t.me/Xenpaicc"),
     ],
 ]
 
@@ -60,10 +60,10 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    TLINK = inline_pic() or "https://graph.org/file/c034f71ff7cdb13ca38c1.jpg"
+    TLINK = inline_pic() or "https://telegra.ph/file/77d150982df44c382b98e.jpg"
     MSG = "• **Ultroid Userbot •**"
     WEB0 = InputWebDocument(
-        "https://graph.org/file/c034f71ff7cdb13ca38c1.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/77d150982df44c382b98e.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
